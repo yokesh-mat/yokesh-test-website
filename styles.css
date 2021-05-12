@@ -83,8 +83,9 @@ table {
 width: 1182px;
 left: 129px;
 top: 100px;
-padding-top: 40px;
-padding-left: 129px;
+margin-top: 40px;
+border-radius: 20px 20px 0px 20px;
+
 
 
 }
@@ -139,7 +140,7 @@ h2{
 .dance{
 	height: 332px;
 width: 317px;
-padding: 88px 0px 0px 116px;
+padding: 88px 0px 0px 95px;
 display: inline-block;
 font-family: Roboto;
 
@@ -166,16 +167,15 @@ font-family: Roboto;
 	height: 335px;
 	width: 536px;
 	padding-top: 96px;
-	padding-left: 145px;
+	padding-left: 80px;
 	
 }
 .sky{
 	height: 335px;
 	width: 335px;
-	padding-top: 131px;
-	padding-left: 108px;
-	padding-bottom: 77px;
-	
+    margin: 131px 0px 77px 140px;
+	border-radius: 50%;
+	border: 2px solid blue;
 	
 	
 
@@ -194,19 +194,17 @@ font-family: Roboto;
 	width: 518px;
 	height: 306px;
 	line-height: 31.74px;
-	display: inline-block;
 	font-family: Roboto;
 	
 }
 .nature{
 	float: left;
 	padding-top: 131px;
-	padding-left: 145px;
+	padding-left: 80px;
 	padding-right: 18px;
 	width: 518px;
 	height: 306px;
 	line-height: 31.74px;
-	display: inline-block;
 	font-family: Roboto;
 	
 }
@@ -255,7 +253,8 @@ p{
 }
 .button {
 	background-color: #06e2ff;
-	border: none;
+	border-radius: 5px;
+	border-color: rgba(255, 255, 255, 0);
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -265,10 +264,20 @@ p{
 	width: 150px;
 	height: 40px;
 	font-family: Roboto;
-	
-	
   }
+	
+	
+  
   .twitter{
 	  padding: 45px 0px;
 	  font-family: Roboto;
+	  text-decoration: none;
+	  color: white;
+
+  }
+  .twitter-button{
+	  text-decoration: none;
+	  color: white;
+	  font-family: Roboto;
+
   }
